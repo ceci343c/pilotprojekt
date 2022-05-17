@@ -1,0 +1,18 @@
+.splash {
+  background-image: url(splash.webp);
+  background-size: cover;
+  width: 85,5%;
+  height: 100vh;
+  padding: 200px;
+}
+
+@media (orientatin: portrait) and (min-width: 500px) {
+  .splash {
+    width: 100%;
+    height: 56.25vw;
+  }
+}
+
+.h1_1 {
+color: blue;
+}
